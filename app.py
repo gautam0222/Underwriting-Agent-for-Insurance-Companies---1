@@ -26,7 +26,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key-here-change-in-production'
 
 # OpenRouter API Configuration
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "Yourapikey")
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # Global variables
